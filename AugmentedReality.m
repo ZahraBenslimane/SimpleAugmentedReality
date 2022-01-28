@@ -3,7 +3,7 @@
 %load videoFrames.mat
 load('cameraParams.mat', 'cameraParams')
 %% 
-
+%sj
 % create the video writer with 1 fps
 writerObj = VideoWriter('myResVideo.avi');
 writerObj.FrameRate = 10;
@@ -142,7 +142,3 @@ end
 
     % close the writer object
     close(writerObj);
-    
-    %% adding comments  3
-    
-    
